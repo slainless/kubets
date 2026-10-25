@@ -32,3 +32,7 @@ Most of the tooling right now drop support for ES5 transpilation target, though 
 
 1.  All modern libs are not available to Rhino and even some are disabled. Refer to [typings](./typings/) for available libs
 2.  kubejs typings must be provided manually. Use LLM to help with this.
+
+## Example
+
+Checkout [example-cnc-copper-compat](https://github.com/slainless/kubets/tree/example-cnc-copper-compat)
