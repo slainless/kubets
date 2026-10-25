@@ -1,0 +1,15 @@
+export const CREATIVE_TABS = [
+	"minecraft:building_blocks",
+	"minecraft:colored_blocks",
+	"minecraft:natural_blocks",
+	"minecraft:functional_blocks",
+	"minecraft:redstone_blocks",
+	"minecraft:hotbar",
+	"minecraft:search",
+	"minecraft:tools_and_utilities",
+	"minecraft:combat",
+	"minecraft:food_and_drinks",
+	"minecraft:ingredients",
+	"minecraft:spawn_eggs",
+	"minecraft:op_blocks",
+];
