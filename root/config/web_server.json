@@ -1,0 +1,6 @@
+{
+	"enabled": true,
+	"port": 61423,
+	"public_address": "",
+	"auth": "<<INSERT AUTH HERE, EXAMPLE: H9rcJ0NWTstCZMkEZg-_NJrkskUot9_DkWeGse4uqlGd>>"
+}

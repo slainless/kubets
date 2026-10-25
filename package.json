@@ -1,0 +1,21 @@
+{
+	"name": "kubets",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"license": "ISC",
+	"author": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "rspack build --watch",
+		"build": "rspack build"
+	},
+	"devDependencies": {
+		"@rspack/cli": "^2.2.9",
+		"@rspack/core": "^2.2.9",
+		"dprint": "^0.64.3",
+		"typescript": "^7.0.2"
+	},
+	"packageManager": "pnpm@10.27.0"
+}
