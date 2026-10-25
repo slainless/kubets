@@ -12,15 +12,15 @@ export function getObjectFields(obj: any) {
 	while (o) {
 		try {
 			skipError(() => {
-				for (const name of Object.getOwnPropertyNames(obj)) {
+				Object.getOwnPropertyNames(obj).forEach(name => {
 					keys.add(name);
-				}
+				});
 			});
 
 			skipError(() => {
-				for (const name of Object.keys(obj)) {
+				Object.keys(obj).forEach(name => {
 					keys.add(name);
-				}
+				});
 			});
 
 			o = Object.getPrototypeOf(o);
